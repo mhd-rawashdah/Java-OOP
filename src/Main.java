@@ -12,5 +12,8 @@ public class Main {
 
 
         System.out.println(Person.counter);
+
+        Task task= new Task("toDO", false);
+        task.runTask();
     }
 }
